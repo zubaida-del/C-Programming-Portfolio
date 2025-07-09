@@ -53,7 +53,7 @@ namespace CarInsurance
             Console.Write("Enter your age: ");
             customer.Age = int.Parse(Console.ReadLine());
 
-            Console.Write("Enter your car's model year (e.g., 2018): ");
+            Console.Write("Enter your car's model year (2020): ");
             customer.CarYear = int.Parse(Console.ReadLine());
 
             Console.Write("Have you had any accidents in the past 5 years? (yes/no): ");
